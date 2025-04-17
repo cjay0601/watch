@@ -1,0 +1,71 @@
+.bg-primary{
+background-color: rgb(2, 123, 125)!important;
+}
+.navbar{
+   font-family:'Times New Roman', Times, serif ;
+}
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    animation: typing 4s steps(30, end) infinite, blink 0.7s infinite;
+   
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 150px; } /* Adjust based on text length */
+}
+
+.dropdown-menu{
+    background-color: darkcyan;
+}
+.carousel-inner {
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+.carousel-inner {
+    display: flex;
+    
+}
+.carousel-item {
+    min-width: 25%;
+    box-sizing: border-box;
+    width: 50%;
+}
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.10);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.carousel-control-prev {
+    left: 10px;
+}
+.carousel-control-next {
+    right: 10px;
+    justify-content: center;
+    display: flex;
+}
+.bg-body-tertiary{
+    background-color: rgb(14, 95, 88)!important;
+}
+.card{
+    padding: 20px;
+}
+img{
+    width: 45%;   
+}
+.bg-body-tertiary{
+    background-color: black;
+}
+.text-unmuted{
+    color: white;
+}
